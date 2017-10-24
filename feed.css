@@ -34,8 +34,9 @@ body {
 }
 
 #recipient-cards {
-    display: block;
-    text-align:left;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
 }
 
 .scrolled-onscreen {
@@ -84,11 +85,11 @@ body {
 .card-timeago {
     font-style: italic;
     color: #999;
-    margin-bottom: 10px;
-    text-align: right;
-    position: absolute;
+    margin: 10px;
+    text-align: left;
+    /*position: absolute;
     top: 20px;
-    right: 20px;
+    right: 20px;*/
 }
 
 .card-phase {
@@ -180,10 +181,11 @@ a > .recipient-card {
 
 .recipient-card {
     margin-bottom: 16px;
+    margin-right: 10px;
     min-height: 120px;
 }
 .recipient-card-right {
-    margin-left: 220px;
+    margin-left: 150px;
     padding: 20px;
 }
 
@@ -198,16 +200,20 @@ a > .recipient-card {
     float: none;
     height: 100%;
     position: absolute;
-    width: 220px;
+    width: 100px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0;
+    padding-left: 10px;
     border-radius: 0px;
 }
 
 .card-headshot img {
-    width: 220px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 }
