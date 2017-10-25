@@ -58,7 +58,6 @@ $(document).ready(function(){
                     link2.setAttribute("href", newlink);
 
                     //Flytt time seen
-                    console.log("tess: ", $(this).find('.recipient-card-right > .card-timeago'));
                     $(this).find('.recipient-card-right > .card-timeago').prependTo(this);
                     
                 })
