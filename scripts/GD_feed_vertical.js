@@ -87,7 +87,7 @@ $(document).ready(function(){
                 });
 
                 // VELDIG midlertidig måte å forkorte teksten på
-                $('.survey-answer-small').each(function () {
+                /*$('.survey-answer-small').each(function () {
                     var text = $(this).text().replace(/\s\s+/g, ' ');
                     console.log(text);
                     var wordArray = text.split(' ');
@@ -101,7 +101,7 @@ $(document).ready(function(){
                     }
                     console.log(newText);
                     $(this).text(newText);
-                });
+                });*/
 
                 console.log( "second success" );
             })

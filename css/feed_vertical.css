@@ -185,8 +185,8 @@ a > .recipient-card {
 }
 
 .card-headshot img {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -217,11 +217,12 @@ a > .recipient-card {
     flex: 1 1 0;
     flex-direction: column;
     max-width: 300px;
-    margin: 20px;
+    margin: 20px 0;
     text-align: center;
     line-height: 50px;
     align-items: center;
     justify-content: center;
+    min-height: 200px;
 }
 
 .stats-overskrift {
@@ -234,4 +235,28 @@ a > .recipient-card {
     color: #3A8375;
     font-size: 40px;
     font-weight: 700;
+}
+
+.stats-families-number {
+    color: #3A8375;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.stats-families-text {
+    color: #3A8375;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.gd-logo {
+    padding: 0 25px;
+    max-width: 250px;
+}
+
+.scroll-dummy {
+    height: 1500px;
+    width: 0px;
+    position: absolute;
 }
